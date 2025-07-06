@@ -10,11 +10,11 @@ Der erste Teil des Workshops erläutert die Kernkonzepte von LiaScript, wie
 - die Interaktivität von Inhalten und
 - die Transformation der Dokumente in verschiedene Umgebungen.
 
-Das Material dazu ist (natürlich) in LiaScript geschrieben und kann direkt im [interaktiven Modus](https://liascript.github.io/course/?https://raw.githubusercontent.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md#1) geöffnet werden.
+Das Material dazu ist (natürlich) in LiaScript geschrieben und kann direkt im [interaktiven Modus](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md) geöffnet werden.
 
 Als Beispiel dient ein interaktives Kochbuch, das die Zubereitung einer Gemüsesuppe beschreibt. Dabei werden verschiedene LiaScript-Elemente wie Text, Bilder, Videos, Quizze und Programmcode verwendet. Zum öffnen der in diesem Repository enthalten Vorlage `Kochbuch.md` im [LiveEditor}(https://liascript.github.io/LiveEditor/) klicken Sie bitte auf den folgenden Link:
 
-- __LiveEditor:__ https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Kochbuch.md
+- __LiveEditor:__ https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Kochbuch.md
 
 ## Lizenz
 Das gesamte Material in diesem Repository ist unter der [CC BY 3.0](https://creativecommons.org/licenses/by/4.0/) lizenziert. Wir freuen uns über die Weiterverbreitung und Verwendung.
