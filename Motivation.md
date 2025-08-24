@@ -44,7 +44,7 @@ translation: Deutsch  translations/German.md
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md)
 
 # Konzepte und Motivation hinter LiaScript
 
@@ -63,7 +63,7 @@ translation: Deutsch  translations/German.md
 
 --------------------------------------------
 
-_ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/blob/main/Motivation.md) zu finden._
+_ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/blob/main/Motivation.md) zu finden._
 
 
 ## Akteure und Ziele der Veranstaltung
@@ -293,6 +293,7 @@ Kurs.txt         Version 1.0          Kurs.txt          Version 1.1
 
 > **Moment, ein reines Textdokument ist als OER Inhalt perfekt? Wahrscheinlich nicht!**
 
+********************************************************************************
 
 ### Wie lösen das andere Autorenkollektive?
 
@@ -457,9 +458,8 @@ LiaScript löst den Inhalt vom LMS und erlaubt die Anwendung von Methoden der ve
 - Serverlose Infrastruktur
 - Dynamische Inhalte
 
-
 Weitere Informationen finden Sie unter der Projektwebseite [https://liascript.github.io/](https://liascript.github.io/) in der [Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1) oder dem [Youtube-Channel](https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg)
 
 > __Jetzt wird es spannend und Sie sind gefragt ...__
-> 
-> __Rufen Sie bitte den Link http://bit.ly/4kWiUFh auf, um den LiveEditor zu starten.__
+>
+> __Rufen Sie bitte den Link [Tutorial](https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Kochbuch.md) auf, um den LiveEditor zu starten.__
