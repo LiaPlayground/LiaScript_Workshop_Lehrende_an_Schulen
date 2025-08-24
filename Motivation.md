@@ -3,7 +3,7 @@ author:   Sebastian Zug, André Dietrich
 
 email:    Sebastian.Zug@informatik.tu-freiberg.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 
@@ -17,6 +17,7 @@ comment:  Dieser Kurs für in das Projekt LiaScript ein und diskutiert die
 logo:     ./images/logo.png
 
 import:   https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
+          https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 translation: Deutsch  translations/German.md
 
@@ -43,7 +44,7 @@ translation: Deutsch  translations/German.md
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/SebastianZug/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Motivation.md)
 
 # Konzepte und Motivation hinter LiaScript
 
@@ -53,7 +54,7 @@ translation: Deutsch  translations/German.md
 <!-- class="flex-child" style="min-width: 250px;" -->
 > <h2>Herzlich Willkommen!</h2>
 >
-><h4>LiaScript Workshop für Lehrinnen und Lehrer sächsischer Schulen, Freiberg 18. Juni 2024</h4>
+><h4>2. LiaScript Workshop für Lehrinnen und Lehrer sächsischer Schulen, Freiberg 26. August 2025</h4>
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 ![partner_map](pic/LiaScript_Meets_OER.png "OER-Logo - Quelle: Jonathasmello - Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156) erweitert um LiaScript Logo")
@@ -68,17 +69,26 @@ _ Der Quellcode kann des Open Source Dokuments ist unter [Link](https://github.c
 ## Akteure und Ziele der Veranstaltung
 
 Wer sind wir?
----------------------
+=====================
 
-+ Sebastian Zug 
-+ André Dietrich
++ __Sebastian Zug__, __André Dietrich__ (TU Bergakademie Freiberg, Institut für Informatik)
++ __Martin Lommatzsch__ (Geschwister-Scholl-Gymnasium, Freiberg)
++ __Matthias Saurbier__ (Berufliches Schulzentrum für Technik, Wirtschaft und Gestaltung, Freiberg)
++ __Thomas Schumann__ (TU Bergakademie Freiberg, Institut für Informatik & Berufliches Schulzentrum für Technik und Wirtschaft Riesa)
 
-Wo soll es hingehen?
---------------------
+Was wollen wir heute erreichen?
+====================
 
-+ Konzepte von LiaScript für deren Umsetzung
++ Einführung in die Konzepte von LiaScript
 + Tutorial zu LiaScript anhand eine Beispiels
 + Austausch von Erfahrungen bei der Nutzung von OER im Schulkontext
+
+Wo befinden wir uns hier?
+=====================
+
++ _RoboLab_ als Lehr-und-Lernumgebung für MINT Themen an der TU Bergakademie Freiberg
++ Angebote für Schulen in Sachsen
++ Kooperationen im [KomZuMInt](https://www.schule.sachsen.de/schulversuch-komzumint-8650.html) Projekt mit dem BSZ Freiberg
 
 
 {{1}}
@@ -86,7 +96,7 @@ Wo soll es hingehen?
 
 ## Ausgangspunkt
 
->  <!-- Style="color:green" -->__Lehrende möchten motivierende, interaktive Lehrmaterialien in ihren Unterricht einbetten.__
+>  <!-- Style="color:green" -->__Lehrende möchten motivierende, interaktive, digitale Lehrmaterialien in ihren Unterricht einbetten.__
 
                   {{0-1}}
 ********************************************
@@ -114,7 +124,36 @@ Beispiel 3D-Modelle:
 
 ********************************************
 
-                  {{2-4}}
+                  {{2-3}}
+********************************************
+
+---------------------
+
+Beispiel 3D-Modelle:
+
+<div>
+  <wokwi-led color="red" pin="13" port="B" label="13"></wokwi-led>
+  <span id="simulation-time"></span>
+</div>
+```cpp       arduino.cpp
+// einmaliges Ausführen
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+// Endlosschleife
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);              
+}
+```
+@AVR8js.sketch
+
+********************************************
+
+                  {{3-5}}
 ********************************************
 
 __Aber ...__
@@ -128,7 +167,7 @@ __Aber ...__
 
 ********************************************
 
-{{3}}
+{{5}}
 ```ascii
 
       Wunsch nach                                             Wunsch nach
@@ -254,31 +293,6 @@ Kurs.txt         Version 1.0          Kurs.txt          Version 1.1
 
 > **Moment, ein reines Textdokument ist als OER Inhalt perfekt? Wahrscheinlich nicht!**
 
-********************************************************************************
-
-{{1-2}}
-********************************************************************************
-
-> _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
->
-> _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
-
-
-Erweiterte 7V Definition an OER Inhalte:
-
-| Anforderung                                            | txt                           | Begründung                                               |
-| ------------------------------------------------------ | ----------------------------- | -------------------------------------------------------- |
-| `verwahren/vervielfältigen `                           | ++                            | vorteilhaft wegen geringer Größe                         |
-| `verwenden`                                            | +                             | analoge / digitale Verteilung an Studieren unkompliziert |
-| `verarbeiten`                                          | ++                            | verarbeitbar ohne zusätzliche Software                   |
-| `vermischen`                                           | +                             | einfache Kombination von Textfragmenten per Copy&Paste   |
-| `verbreiten`                                           | +                             | gut exportierbar                                         |
-| <!-- Style="color:green" --> verwalten / versionieren  | ++                            |                                                          |
-| <!-- Style="color:green" -->   (motivierend) verpacken | <!-- Style="color:red" --> -- | keine zeitgemäßen Formate und interaktiven Inhalte       |
-
-> __Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
-
-********************************************************************************
 
 ### Wie lösen das andere Autorenkollektive?
 
@@ -286,16 +300,15 @@ Wikipedia ist ein gutes Beispiel für eine Plattform, die die 5V-Freiheiten umse
 
 Wikipedia nutzt dabei eine einfache Textsprache (Wikitext), die es ermöglicht, Inhalte zu formatieren und zu strukturieren. 
 
-```markdown     Ausschnitt aus dem Wikipedia Artikel "Informatikunterricht"
-== Lehrinhalte ==
-Der Umgang mit EDV ist heute nicht nur allgemeine Berufsvorbereitung bzw. allgemeine Studienvorbereitung, 
-sondern zählt zur [[Allgemeinbildung]].<ref name="Micheuz 2001">[[#Literatur|Lit.]] Micheuz 2001, 
-zitiert nach {{Internetquelle |url=http://www.schulinformatik.at/fachdidaktik/03-wozu-infount.pdf |
-titel=Wozu Informatikunterricht? |hrsg=schulinformatik.at |format=PDF; 31&nbsp;kB |abruf=2010-01-10}}</ref> 
-Häufig wird in diesem Zusammenhang der Begriff ''[[Computerführerschein]]'' verwendet.
+```markdown     Ausschnitt aus dem Wikipedia Artikel "TU Bergakademie Freiberg"
+Die '''Technische Universität Bergakademie Freiberg''' (TU Bergakademie Freiberg, TUBAF)
+ist eine staatliche [[Technische Universität]] in [[Freiberg]] in [[Sachsen]]. Sie 
+versteht sich als [[Ressourcenuniversität]] und widmet sie sich in Lehre und Forschung 
+der Geo-, Ingenieur-, Natur- und Wirtschaftswissenschaften. Dabei spezialisiert sie 
+sich auf die Energie- und Ressourcenwirtschaft.
 ```
 
-https://de.wikipedia.org/w/index.php?title=Informatikunterricht&action=edit
+https://de.wikipedia.org/w/index.php?title=Technische_Universit%C3%A4t_Bergakademie_Freiberg&action=edit
 
 > Der Wikipedia-Ansatz hat mit Blick auf Lehrmaterialien aber entscheidende Nachteile. Die Inhalte sind:
 
@@ -305,7 +318,7 @@ https://de.wikipedia.org/w/index.php?title=Informatikunterricht&action=edit
 - ...
 
 
-## LiaScript - Kernkonzepte 
+## LiaScript - Kernkonzepte
 
 
                         {{0-1}}
@@ -338,7 +351,7 @@ __Tabellen__
                         {{1-2}}
 *******************************************************
 
-> __2. Lehre lebt von Interaktion__
+> __2. Digitale Lehre lebt von Interaktion!__
 
 ```markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
 # Lehre lebt von Interaktion
@@ -428,9 +441,10 @@ Versionshistorie: ...           '-.(   ).-'     |   ║                         
                                                 |   ╔══════|  Webapp   |══════╗
                                                 |   ║      '-----------'      ║
                                                 +-->║ Digital Systems 2021    ║
-                                                    ║                         ║
+                                                    ║                         ║                                     .
 ```
 
+> Seit Juli 2025 können LiaScript-Kurse direkt in OPAL importiert werden. Dies wurde durch eine Kooperation der TU Bergakademie und der TU Chemnitz sowie der BPS GmbH ermöglicht [Link](https://blog.hrz.tu-chemnitz.de/urzcommunity/2025/07/08/neu-im-opal-mit-liascript-schnell-zum-anschaulichen-interaktiven-kurs/). [Beispielkurs](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/28960423936?4) 
 
 *******************************************************
 
