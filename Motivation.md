@@ -1,9 +1,9 @@
 <!--
-author:   Sebastian Zug, André Dietrich
+author:   Sebastian Zug, André Dietrich, Martin Lommatzsch, Matthias Saurbier, Thomas Schumann
 
 email:    Sebastian.Zug@informatik.tu-freiberg.de
 
-version:  0.0.4
+version:  0.0.5
 
 language: de
 
@@ -129,7 +129,7 @@ Beispiel 3D-Modelle:
 
 ---------------------
 
-Beispiel 3D-Modelle:
+Beispiel Simulationsumgebung:
 
 <div>
   <wokwi-led color="red" pin="13" port="B" label="13"></wokwi-led>
@@ -235,14 +235,14 @@ style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-
 ### Kritik am OER-Ansatz
 
 
-| Ebene                               | Kernaussage                                                                             |
-| ----------------------------------- | --------------------------------------------------------------------------------------- |
-| Emotionale Einordnung               | "_Da kann ja jeder meine Arbeit für sich nutzen!_"                                      |
-|                                     | "_Da kann mich ja jeder kontrollieren!_"                                                |
-| Rechtliche Herausforderungen        | "_Ich verwende viele Grafiken, die bei deren Urheberrecht ich mir im besten Fall unsicher bin!_"                                                                                        |
-| Auffindbarkeit                      | "_Ich finde keine Inhalte, die ich in meiner Lehre gewinnbringend integrieren kann!_"   |
-| <!-- Style="color:red" --> Aufwand  | <!-- Style="color:red" --> "_Da muss man ja Informatik studiert haben!_"                |
-| <!-- Style="color:red" -->Abdeckung | <!-- Style="color:red" -->"_Da fehlen mir aber die Schnittstellen für meine Tools XY!_" |
+| Ebene                               | Kernaussage                                                                                  |
+| ----------------------------------- | -------------------------------------------------------------------------------------------- |
+| Emotionale Einordnung               | "_Da kann ja jeder meine Arbeit für sich nutzen!_"                                           |
+|                                     | "_Da kann mich ja jeder kontrollieren!_"                                                     |
+| Rechtliche Herausforderungen        | "_Ich verwende viele Grafiken, bei deren Urheberrecht ich mir im besten Fall unsicher bin!_" |
+| Auffindbarkeit                      | "_Ich finde keine Inhalte, die ich in meiner Lehre gewinnbringend integrieren kann!_"        |
+| <!-- Style="color:red" --> Aufwand  | <!-- Style="color:red" --> "_Da muss man ja Informatik studiert haben!_"                     |
+| <!-- Style="color:red" -->Abdeckung | <!-- Style="color:red" -->"_Da fehlen mir aber die Schnittstellen für meine Tools XY!_"      |
 
 
 ### Idealer Prozess 
