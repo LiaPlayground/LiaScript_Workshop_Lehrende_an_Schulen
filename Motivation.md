@@ -88,7 +88,7 @@ Wo befinden wir uns hier?
 
 + _RoboLab_ als Lehr-und-Lernumgebung für MINT Themen an der TU Bergakademie Freiberg
 + Angebote für Schulen in Sachsen
-+ Kooperationen im [KomZuMInt](https://www.schule.sachsen.de/schulversuch-komzumint-8650.html) Projekt mit dem BSZ Freiberg
++ Kooperationen im [KomZuMINT](https://www.schule.sachsen.de/schulversuch-komzumint-8650.html) Projekt mit dem BSZ Freiberg
 
 
 {{1}}
