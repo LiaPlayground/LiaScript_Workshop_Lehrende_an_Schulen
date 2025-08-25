@@ -1,3 +1,27 @@
+<!--
+author:   Martin Lommatzsch
+
+email:    Sebastian.Zug@informatik.tu-freiberg.de
+
+version:  0.0.5
+
+language: de
+
+narrator: Deutsch Male
+
+mode:     Presentation
+
+comment:  Dieses Material fasst die Erfahrungen beim Einsatz von LiaScript in meinem Unterricht am Freiberger Gymnasium zusammen.
+
+logo:     ./images/logo.png
+
+translation: Deutsch  translations/German.md
+
+-->
+
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Erfahrungsbericht.md)
+
+
 # Nutzererfahrungen von LiaScript im Unterricht
 
 Martin Lommatzsch, Geschwister-Scholl-Gymnasium Freiberg
