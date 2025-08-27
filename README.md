@@ -1,6 +1,6 @@
 # LiaScript Workshop für Lehrerinnen und Lehrer
 
-## Struktur
+## Struktur des Tutorials
 
 Der Workshop richtet sich an Lehrerinnen und Lehrer, die [LiaScript](https://LiaScript.github.io) kennenlernen möchten. Er bietet eine einführende Darstellung der Motivation der Beschreibungssprache und leitet anhand eines Beispiels die Grundlagen der LiaScript-Syntax her.
 
@@ -15,6 +15,10 @@ Das Material dazu ist (natürlich) in LiaScript geschrieben und kann direkt im [
 Als Beispiel dient ein interaktives Kochbuch, das die Zubereitung einer Gemüsesuppe beschreibt. Dabei werden verschiedene LiaScript-Elemente wie Text, Bilder, Videos, Quizze und Programmcode verwendet. Zum öffnen der in diesem Repository enthalten Vorlage `Kochbuch.md` im [LiveEditor}(https://liascript.github.io/LiveEditor/) klicken Sie bitte auf den folgenden Link:
 
 - __LiveEditor:__ https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Kochbuch.md
+
+## Erfahrungsbericht 
+
+Im Workshop fasste Herr Martin Lommatzsch (Gymnasium Freiberg) zudem seine Erfahrungen beim Einsatz von LiaScript zusammen [Link](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/LiaScript_Workshop_Lehrende_an_Schulen/refs/heads/main/Erfahrungsbericht.md). Dabei zielte die Diskussion insbesondere auf seine beeindruckende Materialsammlung im Bereich [Mathematik](https://mint-the-gap.github.io/Aufgabensammlung/).
 
 ## Lizenz
 Das gesamte Material in diesem Repository ist unter der [CC BY 3.0](https://creativecommons.org/licenses/by/4.0/) lizenziert. Wir freuen uns über die Weiterverbreitung und Verwendung.
